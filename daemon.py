@@ -40,5 +40,6 @@ for item in inspect.getmembers(os, inspect.isbuiltin):
     print(item[0])
 
 print(help(os.replace))
+print()
 
 
